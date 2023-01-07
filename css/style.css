@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.conteiner {
+    margin: auto;
+    /* border: 1px solid red; */
+    width: 713px;
+    padding-bottom: 18px;
+}
+
+.doscajas {
+    display: flex;
+}
+
+.informacion {
+    width: 382px;
+    height: 392px;
+    padding-left: 36px;
+    padding-top: 104px;
+    background: #F261FF;
+    border-radius: 0px 16px 16px 0px;
+}
+
+.informacion p {
+    margin-bottom: 18px;
+    color: #fff;
+}
+
+button {
+    border-radius: 8px;
+    background-color: #fff;
+    width: 74px;
+    height: 28px;
+    margin-top: 15px;
+    color: #F261FF;
+    border: none;
+    font-weight: 700;
+}
+
+.w400 {
+    font-size: 20px;
+    line-height: 14.2px;
+}
+
+.w700 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.41px;
+}
+
+.lorem {
+    width: 230px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.foto {
+    width: 330px;
+    height: 392px;
+    background: #000;
+}
+
+.cajitas {
+    width: 50%;
+    height: 374px;
+    /* border: 1px solid red; */
+}
+
+.cajanegra {
+    width: 230px;
+    height: 230px;
+    margin-left: 68px;
+    margin-top: 63px;
+    background: #000;
+    border-radius: 18px;
+    position: absolute;
+    z-index: 1;
+}
+
+.cajarosada {
+    width: 159px;
+    height: 173px;
+    border-radius: 0px 18px 18px 0px;
+    background: #D934DC;
+    margin-top: 138px;
+    position: relative;
+}
+
+.texto {
+    padding-top: 82px;
+}
+
+.lorems10 {
+    width: 230px;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.texto p {
+    margin-bottom: 18px;
+    color: #000;
+}
+
+.circulos {
+    margin-top: 59px;
+    display: flex;
+}
+
+.circulo {
+    width: 26px;
+    height: 26px;
+    background: #29E3F4;
+    border-radius: 100%;
+    margin-left: 9px;
+}
+
+.unacaja {
+    width: 100%;
+    height: 179px;
+    /* border: 1px solid red; */
+    padding-left: 37px;
+    padding-top: 33px;
+}
+
+.unacaja p {
+    margin-bottom: 18px;
+    color: #000;
+}
+
+.trescajas {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 24px;
+    /* border: 1px solid red; */
+}
+
+.caja1,
+.caja2,
+.caja3,
+.caja4,
+.caja5,
+.caja6,
+.caja7,
+.caja8,
+.caja9,
+.caja10,
+.caja11,
+.caja12 {
+    width: 196px;
+    height: 196px;
+    border-radius: 18px;
+}
+
+.caja1 {
+    background: #DE89EF;
+}
+
+.caja2 {
+    background: #72A5EC;
+}
+
+.caja3 {
+    background: #79E6C9;
+}
+
+.caja4 {
+    background: #76D0B3;
+}
+
+.caja5 {
+    background: #80CAE3;
+}
+
+.caja6 {
+    background: #E485E9;
+}
+
+.interiorcaja {
+    width: 93px;
+    color: #fff;
+    margin-bottom: 27px;
+    margin-left: 29px;
+    margin-top: 111px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.work {
+    padding-top: 59px;
+    padding-left: 40px;
+    padding-bottom: 9px;
+}
+
+.work p {
+    padding-top: 17px;
+}
+
+.caja7 {
+    background: #CFD4D7;
+}
+
+.caja8 {
+    background: #786D69;
+}
+
+.caja9 {
+    background: #488E9D;
+}
+
+.experience {
+    padding-top: 75px;
+    padding-left: 40px;
+    border-radius: 18px;
+    padding-bottom: 22px;
+}
+
+.experience p {
+    padding-top: 17px;
+}
+
+.caja10 {
+    background: #fff;
+    border: 4px solid #02C1F2;
+    padding-top: 54px;
+    padding-left: 18px;
+}
+
+.caja11 {
+    background: #00C1F2;
+    padding-top: 54px;
+    padding-left: 18px;
+}
+.caja11 p {
+    color: #fff;
+}
+
+.caja12 {
+    background: #fff;
+    border: 4px solid #02C1F2;
+    padding-top: 54px;
+    padding-left: 18px;
+}
+
+.w700s20 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.textodentrocaja {
+    width: 151px;
+    font-size: 10px;
+    line-height: 18px;
+    padding-top: 9px;
+}
