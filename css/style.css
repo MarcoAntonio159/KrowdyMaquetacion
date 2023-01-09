@@ -144,6 +144,56 @@ button:hover {
     background: #29E3F4;
     border-radius: 100%;
     margin-left: 9px;
+    animation-name: salto1;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: linear; */
+}
+.circulo2 {
+    width: 26px;
+    height: 26px;
+    background: #29E3F4;
+    border-radius: 100%;
+    margin-left: 9px;
+    animation-name: salto2;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: linear; */
+}
+.circulo3 {
+    width: 26px;
+    height: 26px;
+    background: #29E3F4;
+    border-radius: 100%;
+    margin-left: 9px;
+    animation-name: salto3;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: linear; */
+}
+@keyframes salto1 {
+    0% {bottom: 0;}
+    25% {bottom: 10px;}
+    50% {bottom: 0px;}
+    75% {bottom: 20px;}
+    100% {bottom: 0px;}
+}
+@keyframes salto2 {
+    0% {bottom: 20px;}
+    /* 25% {bottom: 10px;} */
+    50% {bottom: 0px;}
+    /* 75% {bottom: 15px;} */
+    100% {bottom: 20px;}
+}
+@keyframes salto3 {
+    0% {bottom: 10;}
+    25% {bottom: 0px;}
+    /* 50% {bottom: 0px;} */
+    75% {bottom: 25px;}
+    100% {bottom: 0px;}
 }
 
 .unacaja {
@@ -183,26 +233,68 @@ button:hover {
 
 .caja1 {
     background: #DE89EF;
+    transition: ease-in-out all 0.5s;
+    cursor: pointer;
+}
+.caja1:hover {
+    background: #de89ef75;
+    border: 10px solid #DE89EF;
+    transition: ease-in-out all 0.5s;
 }
 
 .caja2 {
     background: #72A5EC;
+    transition: ease-in-out all 0.5s;
+    cursor: pointer;
+}
+.caja2:hover {
+    background: #72a5ec80;
+    border: 10px solid #72A5EC;
+    transition: ease-in-out all 0.5s;
 }
 
 .caja3 {
     background: #79E6C9;
+    transition: ease-in-out all 0.5s;
+    cursor: pointer;
+}
+.caja3:hover {
+    background: #79e6c983;
+    border: 10px solid #79E6C9;
+    transition: ease-in-out all 0.5s;
 }
 
 .caja4 {
     background: #76D0B3;
+    transition: ease-in-out all 0.5s;
+    cursor: pointer;
+}
+.caja4:hover {
+    background: #76d0b480;
+    border: 10px solid #76D0B3;
+    transition: ease-in-out all 0.5s;
 }
 
 .caja5 {
     background: #80CAE3;
+    transition: ease-in-out all 0.5s;
+    cursor: pointer;
+}
+.caja5:hover {
+    background: #80cae381;
+    border: 10px solid #80CAE3;
+    transition: ease-in-out all 0.5s;
 }
 
 .caja6 {
     background: #E485E9;
+    transition: ease-in-out all 0.5s;
+    cursor: pointer;
+}
+.caja6:hover {
+    background: #e485e981;
+    border: 10px solid #E485E9;
+    transition: ease-in-out all 0.5s;
 }
 
 .interiorcaja {
@@ -227,14 +319,35 @@ button:hover {
 
 .caja7 {
     background: #CFD4D7;
+    transition: ease-in-out all 0.5s;
+    cursor: pointer;
+}
+.caja7:hover {
+    background: #fff;
+    border: 10px solid #CFD4D7;
+    transition: ease-in-out all 0.5s;
 }
 
 .caja8 {
     background: #786D69;
+    transition: ease-in-out all 0.5s;
+    cursor: pointer;
+}
+.caja8:hover {
+    background: #fff;
+    border: 10px solid #786D69;
+    transition: ease-in-out all 0.5s;
 }
 
 .caja9 {
     background: #488E9D;
+    transition: ease-in-out all 0.5s;
+    cursor: pointer;
+}
+.caja9:hover {
+    background: #fff;
+    border: 10px solid #488E9D;
+    transition: ease-in-out all 0.5s;
 }
 
 .experience {
@@ -253,15 +366,30 @@ button:hover {
     border: 4px solid #02C1F2;
     padding-top: 54px;
     padding-left: 18px;
+    cursor: pointer;
+    transition: ease-in-out all 0.5s;
+}
+.caja10:hover {
+    background: #02c2f22c;
+    border: 4px solid #fff;
+    transition: ease-in-out all 0.5s;
 }
 
 .caja11 {
     background: #00C1F2;
     padding-top: 54px;
     padding-left: 18px;
+    cursor: pointer;
+    transition: ease-in-out all 0.5s;
+}
+.caja11:hover {
+    background: #02c2f283;
+    border: 4px solid #00C1F2;
+    transition: ease-in-out all 0.5s;
 }
 .caja11 p {
     color: #fff;
+    cursor: pointer;
 }
 
 .caja12 {
@@ -269,6 +397,12 @@ button:hover {
     border: 4px solid #02C1F2;
     padding-top: 54px;
     padding-left: 18px;
+    transition: ease-in-out all 0.5s;
+}
+.caja12:hover {
+    background: #02c2f22c;
+    border: 4px solid #fff;
+    transition: ease-in-out all 0.5s;
 }
 
 .w700s20 {
