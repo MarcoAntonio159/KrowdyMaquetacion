@@ -138,6 +138,13 @@ button:hover {
     border-radius: 100%;
     margin-left: 9px;
 }
+.circulo1 {
+    width: 26px;
+    height: 26px;
+    background: #29E3F4;
+    border-radius: 100%;
+    margin-left: 9px;
+}
 
 .unacaja {
     width: 100%;
